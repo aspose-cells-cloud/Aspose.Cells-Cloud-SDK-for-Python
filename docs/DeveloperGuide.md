@@ -6,9 +6,9 @@ This Developer Guide serves as the complete technical reference for the Aspose.C
 
 | API Method | API Description |
 | :--------- | :---------------| 
-| [DecomposeUserTask](api/DecomposeUserTask.md) | Translates the entire spreadsheet to the specified target language. |
-| [TranslationSpreadsheet](api/TranslationSpreadsheet.md) | Translates the entire spreadsheet to the specified target language. |
-| [TranslateTextFile](api/TranslateTextFile.md) |  |
+| [DecomposeUserTask](api/DecomposeUserTask.md) | AI task decomposition: Convert user objectives to sequential action plans with formatted file export. |
+| [TranslateSpreadsheet](api/TranslateSpreadsheet.md) | Translates the entire spreadsheet to the specified target language. |
+| [TranslateTextFile](api/TranslateTextFile.md) | Translates text file content to the specified target language. |
 | [AggregateCellsByColor](api/AggregateCellsByColor.md) | The Aggregate by Color API provides a convenient way to perform calculations on cells that share the same fill or font color. This API supports a range of aggregate operations, including count, sum, maximum value, minimum value, and average value, enabling you to analyze and summarize data based on color distinctions. |
 | [MathCalculate](api/MathCalculate.md) |  |
 | [PostAccessToken](api/PostAccessToken.md) | Get Access Token Result: The Cells Cloud Get Token API acts as a proxy service,forwarding user requests to the Aspose Cloud authentication server and returning the resulting access token to the client. |
@@ -21,12 +21,14 @@ This Developer Guide serves as the complete technical reference for the Aspose.C
 | [ExportRangeAsFormat](api/ExportRangeAsFormat.md) | Converts the range of spreadsheet in cloud storage to the specified format. |
 | [ConvertSpreadsheet](api/ConvertSpreadsheet.md) | Converts a spreadsheet on a local drive to the specified format. |
 | [ConvertSpreadsheetToPdf](api/ConvertSpreadsheetToPdf.md) | Converts a spreadsheet on a local drive to the pdf file. |
-| [ConvertSpreadsheetToJson](api/ConvertSpreadsheetToJson.md) |  |
+| [ConvertSpreadsheetToJson](api/ConvertSpreadsheetToJson.md) | Converts a spreadsheet on a local drive to the JSON file. |
 | [ConvertSpreadsheetToCsv](api/ConvertSpreadsheetToCsv.md) | Converts a spreadsheet on a local drive to the csv file. |
 | [ConvertWorksheetToImage](api/ConvertWorksheetToImage.md) | Converts a worksheet of spreadsheet on a local drive to the image format. |
 | [ConvertWorksheetToPdf](api/ConvertWorksheetToPdf.md) | Converts a worksheet of spreadsheet on a local drive to the pdf file. |
+| [ConvertWorksheetToJson](api/ConvertWorksheetToJson.md) | Converts a worksheet of spreadsheet on a local drive to the JSON file. |
+| [ConvertWorksheetToCsv](api/ConvertWorksheetToCsv.md) | Converts a worksheet of spreadsheet on a local drive to the CSV file. |
 | [ConvertWorksheetToHtml](api/ConvertWorksheetToHtml.md) | Converts a worksheet of spreadsheet on a local drive to the html file. |
-| [ConvertWorksheetToHtmlTable](api/ConvertWorksheetToHtmlTable.md) |  |
+| [ConvertWorksheetToHtmlTable](api/ConvertWorksheetToHtmlTable.md) | Converts a worksheet of spreadsheet on a local drive to the HTML table file. |
 | [ConvertTableToImage](api/ConvertTableToImage.md) | Converts a table of spreadsheet on a local drive to the image file. |
 | [ConvertTableToPdf](api/ConvertTableToPdf.md) | Converts a table of spreadsheet on a local drive to the pdf file. |
 | [ConvertTableToCsv](api/ConvertTableToCsv.md) | Converts a table of spreadsheet on a local drive to the csv file. |
@@ -44,23 +46,28 @@ This Developer Guide serves as the complete technical reference for the Aspose.C
 | [MergeSpreadsheetsInRemoteFolder](api/MergeSpreadsheetsInRemoteFolder.md) | Merge spreadsheet files in folder of cloud storage into a specified format file. |
 | [MergeRemoteSpreadsheet](api/MergeRemoteSpreadsheet.md) | Merge a spreadsheet file into other spreadsheet in cloud storage, and output a specified format file. |
 | [SplitSpreadsheet](api/SplitSpreadsheet.md) | Split a local spreadsheet into the specified format, multi-file. |
-| [SplitTable](api/SplitTable.md) | Split an Excel worksheet into multiple sheets by column value. |
+| [SplitTable](api/SplitTable.md) | Split an Excel worksheet tale into multiple sheets by column value. |
 | [SplitRemoteSpreadsheet](api/SplitRemoteSpreadsheet.md) | Split a spreadsheet in cloud storage into the specified format, multi-file. |
 | [ImportDataIntoSpreadsheet](api/ImportDataIntoSpreadsheet.md) | Import data into a spreadsheet from a supported data file format. |
-| [ImportJSONDataIntoSpreadsheet](api/ImportJSONDataIntoSpreadsheet.md) |  |
-| [ImportXMLDataIntoSpreadsheet](api/ImportXMLDataIntoSpreadsheet.md) |  |
-| [ImportCSVDataIntoSpreadsheet](api/ImportCSVDataIntoSpreadsheet.md) |  |
+| [ImportJSONDataIntoSpreadsheet](api/ImportJSONDataIntoSpreadsheet.md) | Import JSON data file into the local spreadsheet. |
+| [ImportXMLDataIntoSpreadsheet](api/ImportXMLDataIntoSpreadsheet.md) | Import XML data file into the local spreadsheet. |
+| [ImportCSVDataIntoSpreadsheet](api/ImportCSVDataIntoSpreadsheet.md) | Import CSV data file into the local spreadsheet. |
 | [GetPublicKey](api/GetPublicKey.md) | Get an asymmetric public key. |
 | [CreateSpreadsheet](api/CreateSpreadsheet.md) | The Web API allows users to create a new spreadsheet with a specified name. Optionally, a template can be provided to initialize the spreadsheet with predefined content or formatting. |
+| [GetWorksheetsWithLocalSpreadsheet](api/GetWorksheetsWithLocalSpreadsheet.md) | Fetches a complete list of worksheets from the currently active local spreadsheet. |
 | [AddWorksheetToSpreadsheet](api/AddWorksheetToSpreadsheet.md) | The Web API enables users to add a new worksheet to a workbook, specifying the worksheet's type, position, and name. This function provides flexibility in managing workbook structure by allowing detailed control over worksheet addition. |
 | [DeleteWorksheetFromSpreadsheet](api/DeleteWorksheetFromSpreadsheet.md) | The Web API endpoint allows users to delete a specified worksheet from a workbook. This function provides a straightforward way to manage workbook structure by removing unnecessary or redundant worksheets. |
 | [RenameWorksheetInSpreadsheet](api/RenameWorksheetInSpreadsheet.md) | The Web API endpoint allows users to rename a specified worksheet within a workbook. This function provides a straightforward way to update worksheet names, enhancing workbook organization and readability. |
 | [MoveWorksheetInSpreadsheet](api/MoveWorksheetInSpreadsheet.md) | The Web API endpoint allows users to move a specified worksheet within a workbook. This function provides a straightforward way to move a worksheet, enhancing workbook organization. |
 | [CompressSpreadsheet](api/CompressSpreadsheet.md) | The Web API endpoint allows users to compress a spreadsheet to reduce its file size. This function provides a straightforward way to optimize the storage and performance of spreadsheets by applying a specified compression level. |
-| [RepairSpreadsheet](api/RepairSpreadsheet.md) |  |
+| [RepairSpreadsheet](api/RepairSpreadsheet.md) | The Web API endpoint allows users to repair a spreadsheet. |
+| [GetMergedCellsInRemotedWorksheet](api/GetMergedCellsInRemotedWorksheet.md) | Get all merged cell area form a remote spreadsheet worksheet. |
+| [GetMergedCellsInWorksheet](api/GetMergedCellsInWorksheet.md) | Get all merged cell area form a local spreadsheet worksheet. |
 | [ProtectSpreadsheet](api/ProtectSpreadsheet.md) | Applies dual-layer password protection to Excel spreadsheets, supporting both open and modify passwords with encryption. |
 | [UnprotectSpreadsheet](api/UnprotectSpreadsheet.md) | Removes dual-layer password protection from Excel spreadsheets, supporting both open and modify passwords with encryption. |
 | [SpreadsheetDigitalsignature](api/SpreadsheetDigitalsignature.md) |  |
+| [SearchAllTextItemsInRemoteSpreadsheet](api/SearchAllTextItemsInRemoteSpreadsheet.md) | Get all text items in the remote spreadsheet. |
+| [SearchSpreadsheetAllTextItems](api/SearchSpreadsheetAllTextItems.md) | Get all text items in the remote spreadsheet. |
 | [SearchSpreadsheetContent](api/SearchSpreadsheetContent.md) | Search text in the local spreadsheet. |
 | [SearchContentInRemoteSpreadsheet](api/SearchContentInRemoteSpreadsheet.md) | Search text in the remoted spreadsheet. |
 | [SearchContentInRemoteWorksheet](api/SearchContentInRemoteWorksheet.md) | Search text in the worksheet of remoted spreadsheet. |
@@ -87,9 +94,9 @@ This Developer Guide serves as the complete technical reference for the Aspose.C
 | [RemoveSpreadsheetBlankRows](api/RemoveSpreadsheetBlankRows.md) | Delete all blank rows that do not contain any data or other objects. |
 | [RemoveSpreadsheetBlankColumns](api/RemoveSpreadsheetBlankColumns.md) | Delete all blank rows that do not contain any data or other objects. |
 | [RemoveSpreadsheetBlankWorksheets](api/RemoveSpreadsheetBlankWorksheets.md) | Delete all blank rows that do not contain any data or other objects. |
-| [RemoveDuplicates](api/RemoveDuplicates.md) |  |
+| [RemoveDuplicates](api/RemoveDuplicates.md) | Removes duplicate values in the worksheet/range/table. |
 | [SwapRange](api/SwapRange.md) | The Swap Ranges for Excel API provides a powerful tool to move any two columns, rows, ranges, or individual cells within an Excel file. This API allows users to re-arrange their tables quickly and efficiently, ensuring that the original data formatting is preserved and all existing formulas continue to function correctly. By leveraging this API, users can streamline their data manipulation tasks and maintain the integrity of their spreadsheets. |
-| [FlipData](api/FlipData.md) |  |
+| [FlipData](api/FlipData.md) | Transposes a specified data range (rows become columns, columns become rows). |
 | [DownloadFile](api/DownloadFile.md) |  |
 | [UploadFile](api/UploadFile.md) |  |
 | [CopyFile](api/CopyFile.md) |  |

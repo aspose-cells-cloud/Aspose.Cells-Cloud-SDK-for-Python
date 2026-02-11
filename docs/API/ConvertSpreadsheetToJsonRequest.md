@@ -1,12 +1,14 @@
 # **Spreadsheet Cloud API: convertSpreadsheetToJson**
 
- 
+Converts a spreadsheet on a local drive to the JSON file. 
 
 
 ## **Quick Start**
 
 - **Base URL**: `http://api.aspose.cloud/v4.0`
 - **Authentication Method**: `JWT (OAuth2, application)`  **Token URL**: `https://api.aspose.cloud/connect/token`
+- **Example** 
+
 ## **Interface Details**
 
 ### **Endpoint** 
@@ -15,6 +17,7 @@
 PUT http://api.aspose.cloud/v4.0/cells/convert/spreadsheet/json
 ```
 ### **Function Description**
+This method reads a spreadsheet file from the local file system, converts it into the JSON format file. The source file path and target format must be specified correctly. Ensure that the necessary permissions are in place to read the source file and write the converted file if applicable. The conversion process occurs entirely on the cloud server, eliminating the need for any cloud storage or external downloads. If the source file does not exist, is inaccessible, or if an error occurs during the conversion process, an appropriate exception will be thrown. Supported formats for conversion depend on the available libraries and their capabilities.## **Error Handling**- **400 Bad Request**: Invalid url.- **401 Unauthorized**:  Authentication has failed, or no credentials were provided.- **404 Not Found**: Source file not accessible.- **500 Server Error** The spreadsheet has encountered an anomaly in obtaining conversion data.## **Key Features and Benefits**- **Cloud-Native Conversion**: Conversion of local files directly in the cloud, eliminating the need to store them there.- **Reduced Cloud Resource Burden**: No need to upload files to the cloud, saving cloud storage space.- **Simplified Workflow**: Convert local spreadsheets to the desired format directly through cloud services, without intermediate steps.
 
 ### The request parameters of **convertSpreadsheetToJson** API are: 
 

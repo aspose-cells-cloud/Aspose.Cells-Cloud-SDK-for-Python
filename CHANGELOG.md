@@ -1,5 +1,16 @@
 # Release History Version
 
+## Feature & Enhancements in Version 26.1
+
+| **Summary**                                                                              | **Category** |
+| :--------------------------------------------------------------------------------------- | :----------- |
+| Support to AI decompose user task                                                        | New Feature  |
+| Aspose.Cells Cloud python plugin for markitdown.                                         | New Feature  |
+| Optimization of the data import API: adding support for importing individual data types. | New Feature  |
+| Support to convert worksheet to html table.                                              | New Feature  |
+| Support to flip data in worksheet.                                                       | New Feature  |
+| Fix object reference not set to an instance of an object.                                | Bug          |
+
 ## Feature & Enhancements in Version 25.12
 
 | **Summary**                         | **Category** |

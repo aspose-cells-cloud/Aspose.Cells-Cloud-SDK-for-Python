@@ -1,6 +1,6 @@
 # **Spreadsheet Cloud API: removeDuplicates**
 
- 
+Removes duplicate values in the worksheet/range/table. 
 
 
 ## **Quick Start**
@@ -15,15 +15,16 @@
 PUT http://api.aspose.cloud/v4.0/cells/remove/duplicates
 ```
 ### **Function Description**
+This method scans the target scope for rows with identical values in the specified columnsToCheck.For each set of duplicates, all but the first occurrence are removed. The comparison is typically case-sensitive and matches the exact cell value.## **Error Handling**- **400 Bad Request**: Invalid url.- **401 Unauthorized**:  Authentication has failed, or no credentials were provided.- **404 Not Found**: Source file not accessible.- **500 Server Error** The spreadsheet has encountered an anomaly in obtaining data.
 
 ### The request parameters of **removeDuplicates** API are: 
 
 | Parameter Name | Type | Path/Query String/HTTPBody | Description | 
 | :- | :- | :- |:- | 
 |Spreadsheet|File|FormData|Upload spreadsheet file.|
-|worksheet|String|Query||
-|range|String|Query||
-|table|String|Query||
+|worksheet|String|Query|The worksheet name.|
+|range|String|Query|Range name that need deduplication.|
+|table|String|Query|Table name that need deduplication.|
 |outPath|String|Query|(Optional) The folder path where the workbook is stored. The default is null.|
 |outStorageName|String|Query|Output file Storage Name.|
 |region|String|Query|The spreadsheet region setting.|

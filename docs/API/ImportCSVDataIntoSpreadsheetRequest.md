@@ -1,6 +1,6 @@
 # **Spreadsheet Cloud API: importCSVDataIntoSpreadsheet**
 
- 
+Import CSV data file into the local spreadsheet. 
 
 
 ## **Quick Start**
@@ -15,6 +15,7 @@
 PUT http://api.aspose.cloud/v4.0/cells/import/data/csv
 ```
 ### **Function Description**
+The method parses the CSV, maps the data to the spreadsheet's cell structure, and saves the file locally. Supported spreadsheet formats include .xlsx and .ods.## **Error Handling**- **400 Bad Request**: Invalid url.- **401 Unauthorized**:  Authentication has failed, or no credentials were provided.- **404 Not Found**: Source file not accessible.- **500 Server Error** The spreadsheet has encountered an anomaly in obtaining data.## **Key Features and Benefits**- **Direct Spreadsheet Integration**: Imports data directly into the specified spreadsheet.- **Efficient Data Handling**: Processes data efficiently, ensuring accurate parsing and insertion.        
 
 ### The request parameters of **importCSVDataIntoSpreadsheet** API are: 
 
@@ -22,10 +23,10 @@ PUT http://api.aspose.cloud/v4.0/cells/import/data/csv
 | :- | :- | :- |:- | 
 |datafile|File|FormData|Upload data file.|
 |Spreadsheet|File|FormData|Upload spreadsheet file.|
-|worksheet|String|Query||
-|startcell|String|Query||
-|insert|Boolean|Query||
-|convertNumericData|Boolean|Query||
+|worksheet|String|Query|Need to import CSV data into the worksheet.|
+|startcell|String|Query|Starting position for data import|
+|insert|Boolean|Query|Controls the insertion behavior. true: inserts data; false: overwrites existing data.|
+|convertNumericData|Boolean|Query|Whether the string in text file is converted to numeric data.|
 |splitter|String|Query||
 |outPath|String|Query|(Optional) The folder path where the workbook is stored. The default is null.|
 |outStorageName|String|Query|Output file Storage Name.|

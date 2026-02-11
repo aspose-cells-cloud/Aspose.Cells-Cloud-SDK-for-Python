@@ -1,6 +1,6 @@
 # **Spreadsheet Cloud API: splitTable**
 
-Split an Excel worksheet into multiple sheets by column value. 
+Split an Excel worksheet tale into multiple sheets by column value. 
 
 
 ## **Quick Start**
@@ -15,6 +15,7 @@ Split an Excel worksheet into multiple sheets by column value.
 PUT http://api.aspose.cloud/v4.0/cells/split/table
 ```
 ### **Function Description**
+This method performs a split operation on the source table by grouping rows according to the distinct values in the specified .Each group of data (for each unique split value) is then processed as a separate data unit.The export destination is controlled by two key boolean parameters:-  Determines the workbook structure. If `true`, each split unit is saved into a separate workbook file. If `false`, each unit becomes a new worksheet within the current workbook.- Determines the output packaging. When set to `true` and combined with `toNewWorkbook` = `true`, the method generates multiple individual files and returns them as a ZIP archive. When `false`, all data is consolidated into a single file (either a multi-sheet workbook or a single file as per other settings).## **Error Handling**- **400 Bad Request**: Invalid url.- **401 Unauthorized**:  Authentication has failed, or no credentials were provided.- **404 Not Found**: Source file not accessible.- **500 Server Error** The spreadsheet has encountered an anomaly in obtaining data.## **Key Features and Benefits**- **Local File Splitting**: Splits a single local spreadsheet file into multiple output files in the specified format (e.g., XLSX, CSV, PDF).- **Cloud-Based Processing**: Performs the splitting operation in the cloud, without requiring cloud storage.- **Enhanced Performance**: Processes the file in the cloud, reducing the need for local processing and improving performance.
 
 ### The request parameters of **splitTable** API are: 
 

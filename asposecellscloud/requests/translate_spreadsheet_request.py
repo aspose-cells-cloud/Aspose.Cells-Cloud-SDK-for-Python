@@ -1,6 +1,6 @@
 # coding: utf-8
 """
-<copyright company="Aspose" file="TranslationSpreadsheetRequest.cs">
+<copyright company="Aspose" file="TranslateSpreadsheetRequest.cs">
   Copyright (c) 2026 Aspose.Cells Cloud
 </copyright>
 <summary>
@@ -33,7 +33,7 @@ from asposecellscloud.models import *
 from asposecellscloud.requests import *
 from six.moves.urllib.parse import quote
 
-class TranslationSpreadsheetRequest(object):
+class TranslateSpreadsheetRequest(object):
 
     def __init__(self , spreadsheet ,target_language ,region =None ,password =None ):
         self.spreadsheet = spreadsheet 
@@ -49,12 +49,12 @@ class TranslationSpreadsheetRequest(object):
 
         # verify the required parameter 'spreadsheet' is set
         if self.spreadsheet is None:
-            raise ValueError("Missing the required parameter `spreadsheet` when calling `translation_spreadsheet`")
+            raise ValueError("Missing the required parameter `spreadsheet` when calling `translate_spreadsheet`")
 
 
         # verify the required parameter 'target_language' is set
         if self.target_language is None:
-            raise ValueError("Missing the required parameter `target_language` when calling `translation_spreadsheet`")
+            raise ValueError("Missing the required parameter `target_language` when calling `translate_spreadsheet`")
 
 
         collection_formats = {}
@@ -73,7 +73,7 @@ class TranslationSpreadsheetRequest(object):
 
         header_params = {}
         header_params['x-aspose-client'] = 'python sdk';
-        header_params['x-aspose-client-version'] = '26.1.1';
+        header_params['x-aspose-client-version'] = '26.2';
 
         form_params = []
         local_var_files = {}

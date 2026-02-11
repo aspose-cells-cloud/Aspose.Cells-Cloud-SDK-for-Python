@@ -1,6 +1,6 @@
 # **Spreadsheet Cloud API: translateTextFile**
 
- 
+Translates text file content to the specified target language. 
 
 
 ## **Quick Start**
@@ -12,9 +12,10 @@
 ### **Endpoint** 
 
 ```
-PUT http://api.aspose.cloud/v4.0/cells/ai/translate/text
+PUT http://api.aspose.cloud/v4.0/cells/ai/translate/text-file
 ```
 ### **Function Description**
+This method supports two modes of operation:1. **File Upload Mode**: Accepts a text file upload via multipart/form-data and returns the translated text as a downloadable file2. **Direct Content Mode**: Accepts raw text content in the request body and returns the translated text directly            The method uses AI translation services to accurately translate the text content while preserving the original formatting and line structure.            ## **Supported Input Methods**            - **File Upload**: Send a text file as multipart/form-data with form field name "file"- **Direct Text**: Send raw text content directly in the request body            ## **Error Handling**            - **400 Bad Request**: Empty content or missing translation text- **401 Unauthorized**: Authentication failed for translation service- **500 Server Error**: Translation service unavailable or internal processing error            ## **Key Features and Benefits**            - **Flexible Input**: Accepts both file uploads and raw text content- **AI-Powered Translation**: Uses advanced AI for natural and accurate translations- **Format Preservation**: Maintains original text formatting, line breaks, and structure- **Automatic File Handling**: When uploading files, automatically generates translated filename with "_translated" suffix
 
 ### The request parameters of **translateTextFile** API are: 
 
@@ -28,7 +29,7 @@ PUT http://api.aspose.cloud/v4.0/cells/ai/translate/text
 ### **Response Description**
 ```json
 {
-File
+Void
 }
 ```
 

@@ -73,7 +73,7 @@ class TranslateTextFileRequest(object):
 
         header_params = {}
         header_params['x-aspose-client'] = 'python sdk';
-        header_params['x-aspose-client-version'] = '26.1.1';
+        header_params['x-aspose-client-version'] = '26.2';
 
         form_params = []
         local_var_files = {}
@@ -98,7 +98,7 @@ class TranslateTextFileRequest(object):
 
         # Authentication setting
         auth_settings = []
-        resource_path =  "v4.0/cells/ai/translate/text"
+        resource_path =  "v4.0/cells/ai/translate/text-file"
         # path parameters
         if path_params:
             path_params = api_client.sanitize_for_serialization(path_params)
@@ -116,6 +116,6 @@ class TranslateTextFileRequest(object):
                 "auth_settings":auth_settings,
                 "body": body_params,
                 "collection_formats": collection_formats,
-                "response_type": 'file'  
+                "response_type": ''  
         }
 
