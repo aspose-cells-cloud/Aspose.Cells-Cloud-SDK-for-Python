@@ -259,5 +259,5 @@ class Configuration(object):
                "OS: {env}\n"\
                "Python Version: {pyversion}\n"\
                "Version of the API: v3.0\n"\
-               "SDK Package Version: 26.2".\
+               "SDK Package Version: 26.3.1".\
                format(env=sys.platform, pyversion=sys.version)

@@ -35,12 +35,13 @@ from six.moves.urllib.parse import quote
 
 class SplitTableRequest(object):
 
-    def __init__(self , spreadsheet ,worksheet ,table_name ,split_column_name ,save_split_column ,to_new_workbook ,to_multiple_files ,out_path =None ,out_storage_name =None ,fonts_location =None ,region =None ,password =None ):
+    def __init__(self , spreadsheet ,worksheet ,table_name ,split_column_name ,save_split_column ,split_row_number ,to_new_workbook ,to_multiple_files ,out_path =None ,out_storage_name =None ,fonts_location =None ,region =None ,password =None ):
         self.spreadsheet = spreadsheet 
         self.worksheet = worksheet 
         self.table_name = table_name 
         self.split_column_name = split_column_name 
         self.save_split_column = save_split_column 
+        self.split_row_number = split_row_number 
         self.to_new_workbook = to_new_workbook 
         self.to_multiple_files = to_multiple_files 
         self.out_path = out_path 
@@ -80,6 +81,11 @@ class SplitTableRequest(object):
             raise ValueError("Missing the required parameter `save_split_column` when calling `split_table`")
 
 
+        # verify the required parameter 'split_row_number' is set
+        if self.split_row_number is None:
+            raise ValueError("Missing the required parameter `split_row_number` when calling `split_table`")
+
+
         # verify the required parameter 'to_new_workbook' is set
         if self.to_new_workbook is None:
             raise ValueError("Missing the required parameter `to_new_workbook` when calling `split_table`")
@@ -102,6 +108,8 @@ class SplitTableRequest(object):
             query_params.append(('splitColumnName',self.split_column_name ))
         if self.save_split_column is not None:
             query_params.append(('saveSplitColumn',self.save_split_column ))
+        if self.split_row_number is not None:
+            query_params.append(('splitRowNumber',self.split_row_number ))
         if self.to_new_workbook is not None:
             query_params.append(('toNewWorkbook',self.to_new_workbook ))
         if self.to_multiple_files is not None:
@@ -122,7 +130,7 @@ class SplitTableRequest(object):
 
         header_params = {}
         header_params['x-aspose-client'] = 'python sdk';
-        header_params['x-aspose-client-version'] = '26.2';
+        header_params['x-aspose-client-version'] = '26.3.1';
 
         form_params = []
         local_var_files = {}

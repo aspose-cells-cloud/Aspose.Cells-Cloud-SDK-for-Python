@@ -1,5 +1,24 @@
 # Release History Version
 
+## Feature & Enhancements in Version v26.2
+
+Full list of issues covering all changes in this release:
+
+| **Summary**                                                                                                   | **Category** |
+| :------------------------------------------------------------------------------------------------------------ | :----------- |
+| Aspose.Cells Cloud python plugin for marker.                                                                  | New Feature  |
+| Support converting Worksheet to JSON format file                                                              | New Feature  |
+| Support converting Worksheet to CSV format file                                                               | New Feature  |
+| Support getting worksheets with the spreadsheet                                                               | New Feature  |
+| Support getting all text items from the spreadsheet.                                                          | New Feature  |
+| Support getting all merged cell areas from the spreadsheet.                                                   | New Feature  |
+| The TranslationSpreadsheet API has been modified to support multiple input and output formats.                | New Feature  |
+| The TranslateTextFile API has been updated to support the translation of plain text content other than files. | New Feature  |
+| Enhancing the Get Workbook function when only a data stream is available.                                     | New Feature  |
+| Enhance MaxResponseBufferSize for Aspose.Cells Cloud                                                          | Improvement  |
+| Format exception about converting table to html API                                                           | Bug          |
+| Build error in the From Body parameter description in the code generation specification.                      | Bug          |
+
 ## Feature & Enhancements in Version 26.1
 
 | **Summary**                                                                              | **Category** |
