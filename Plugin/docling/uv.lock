@@ -189,6 +189,17 @@ wheels = [
 ]
 
 [[package]]
+name = "aspose-cells-python"
+version = "26.3.0"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d5/41/1ad42dec249393d926cae38e439c334e0dcbf2828bf29f97bf107c27a45c/aspose_cells_python-26.3.0-py3-none-macosx_10_14_x86_64.whl", hash = "sha256:ec099d37e72b1e4f1cc63a5062fb0d307fe20aaa287780cae8d9d0ac6924b20e", size = 75159386, upload-time = "2026-03-12T08:57:09.868Z" },
+    { url = "https://files.pythonhosted.org/packages/9b/13/d645647ab1f96231de3123b9551a377e79138ee751773cc04ab748f1a72e/aspose_cells_python-26.3.0-py3-none-macosx_11_0_arm64.whl", hash = "sha256:17451daa2a32e86f5bf62ad1f67811650c83c686fa4fa26e1d98f3b18d8bad96", size = 72008896, upload-time = "2026-03-12T08:55:23.628Z" },
+    { url = "https://files.pythonhosted.org/packages/8e/e7/1d1ea414bce66ab489e44ce80e41edeea2d9c23bd43bcb3e7cfbb946cdd7/aspose_cells_python-26.3.0-py3-none-manylinux1_x86_64.whl", hash = "sha256:9bb87126c859bfdfe61825ee8ca98217c09ada9f3bcdf42b5873ad7fdcfabec1", size = 87888414, upload-time = "2026-03-12T08:05:24.827Z" },
+    { url = "https://files.pythonhosted.org/packages/f3/67/c2662b7cd420d0b9646242c4c22adb5e8aa29db133dc65279056fadfaa34/aspose_cells_python-26.3.0-py3-none-win_amd64.whl", hash = "sha256:4c3dd895d7c3010121ef7529e8dc222f0bb1b96348d49695ed6b1c87d1780a51", size = 58887057, upload-time = "2026-03-12T08:58:23.836Z" },
+]
+
+[[package]]
 name = "asttokens"
 version = "3.0.0"
 source = { registry = "https://pypi.org/simple" }
@@ -790,6 +801,7 @@ version = "2.46.0"
 source = { editable = "." }
 dependencies = [
     { name = "accelerate" },
+    { name = "aspose-cells-python" },
     { name = "beautifulsoup4" },
     { name = "certifi" },
     { name = "docling-core", extra = ["chunking"] },
@@ -885,6 +897,7 @@ examples = [
 requires-dist = [
     { name = "accelerate", specifier = ">=1.0.0,<2" },
     { name = "accelerate", marker = "extra == 'vlm'", specifier = ">=1.2.1,<2.0.0" },
+    { name = "aspose-cells-python", specifier = ">=25.7.0" },
     { name = "beautifulsoup4", specifier = ">=4.12.3,<5.0.0" },
     { name = "certifi", specifier = ">=2024.7.4" },
     { name = "docling-core", extras = ["chunking"], specifier = ">=2.42.0,<3.0.0" },
@@ -2903,7 +2916,7 @@ wheels = [
 
 [[package]]
 name = "nbconvert"
-version = "7.16.6"
+version = "7.17.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "beautifulsoup4" },
@@ -2922,9 +2935,9 @@ dependencies = [
     { name = "pygments" },
     { name = "traitlets" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/a3/59/f28e15fc47ffb73af68a8d9b47367a8630d76e97ae85ad18271b9db96fdf/nbconvert-7.16.6.tar.gz", hash = "sha256:576a7e37c6480da7b8465eefa66c17844243816ce1ccc372633c6b71c3c0f582", size = 857715, upload-time = "2025-01-28T09:29:14.724Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/38/47/81f886b699450d0569f7bc551df2b1673d18df7ff25cc0c21ca36ed8a5ff/nbconvert-7.17.0.tar.gz", hash = "sha256:1b2696f1b5be12309f6c7d707c24af604b87dfaf6d950794c7b07acab96dda78", size = 862855, upload-time = "2026-01-29T16:37:48.478Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/cc/9a/cd673b2f773a12c992f41309ef81b99da1690426bd2f96957a7ade0d3ed7/nbconvert-7.16.6-py3-none-any.whl", hash = "sha256:1375a7b67e0c2883678c48e506dc320febb57685e5ee67faa51b18a90f3a712b", size = 258525, upload-time = "2025-01-28T09:29:12.551Z" },
+    { url = "https://files.pythonhosted.org/packages/0d/4b/8d5f796a792f8a25f6925a96032f098789f448571eb92011df1ae59e8ea8/nbconvert-7.17.0-py3-none-any.whl", hash = "sha256:4f99a63b337b9a23504347afdab24a11faa7d86b405e5c8f9881cd313336d518", size = 261510, upload-time = "2026-01-29T16:37:46.322Z" },
 ]
 
 [[package]]
