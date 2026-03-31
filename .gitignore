@@ -68,3 +68,4 @@ target/
 integrationtests/
 test-reports/
 TestData
+.sfdx/
