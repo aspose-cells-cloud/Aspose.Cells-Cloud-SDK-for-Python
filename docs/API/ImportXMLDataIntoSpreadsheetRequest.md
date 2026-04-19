@@ -29,7 +29,7 @@ The method parses the XML, maps the data to the spreadsheet's cell structure, an
 |outPath|String|Query|(Optional) The folder path where the workbook is stored. The default is null.|
 |outStorageName|String|Query|Output file Storage Name.|
 |fontsLocation|String|Query|Use Custom fonts.|
-|region|String|Query|The spreadsheet region setting.|
+|region|String|Query|Spreadsheet region/language setting (e.g., `en-US`, `fr-FR`). Influences number formatting, date parsing, and locale‑specific behavior.|
 |password|String|Query|The password for opening spreadsheet file.|
 
 ### **Response Description**

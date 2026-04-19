@@ -27,7 +27,7 @@ By using the CreateSpreadsheet function, you can quickly set up new spreadsheets
 |template|String|Query|template: Optional.If provided, the new spreadsheet will be created based on the specified template.This can be useful for applying predefined layouts and styles.|
 |outPath|String|Query|(Optional) The folder path where the workbook is stored. The default is null.|
 |outStorageName|String|Query|Output file Storage Name.|
-|region|String|Query|The spreadsheet region setting.|
+|region|String|Query|Spreadsheet region/language setting (e.g., `en-US`, `fr-FR`). Influences number formatting, date parsing, and locale‑specific behavior.|
 |password|String|Query|The password for opening spreadsheet file.|
 
 ### **Response Description**

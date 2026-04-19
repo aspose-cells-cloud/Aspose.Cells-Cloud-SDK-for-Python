@@ -27,7 +27,7 @@ This method scans the target scope for rows with identical values in the specifi
 |table|String|Query|Table name that need deduplication.|
 |outPath|String|Query|(Optional) The folder path where the workbook is stored. The default is null.|
 |outStorageName|String|Query|Output file Storage Name.|
-|region|String|Query|The spreadsheet region setting.|
+|region|String|Query|Spreadsheet region/language setting (e.g., `en-US`, `fr-FR`). Influences number formatting, date parsing, and locale‑specific behavior.|
 |password|String|Query|The password for opening spreadsheet file.|
 
 ### **Response Description**

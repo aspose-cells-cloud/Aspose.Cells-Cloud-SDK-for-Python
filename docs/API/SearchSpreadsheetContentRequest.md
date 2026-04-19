@@ -28,7 +28,7 @@ This method searches for specified text within a local spreadsheet file. It supp
 |ignoringCase|Boolean|Query|Ignore the text of the search.|
 |worksheet|String|Query|Specify the worksheet for the lookup.|
 |cellArea|String|Query|Specify the cell area for the lookup|
-|region|String|Query|The spreadsheet region setting.|
+|region|String|Query|Spreadsheet region/language setting (e.g., `en-US`, `fr-FR`). Influences number formatting, date parsing, and locale‑specific behavior.|
 |password|String|Query|The password for opening spreadsheet file.|
 
 ### **Response Description**

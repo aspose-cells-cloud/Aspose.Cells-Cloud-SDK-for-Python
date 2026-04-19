@@ -29,7 +29,7 @@ By using the AddWorksheet API, you can dynamically manage the structure of your 
 |sheetName|String|Query|Specifies the type of worksheet to be added.If not provided, a default worksheet type will be used.|
 |outPath|String|Query|(Optional) The folder path where the workbook is stored. The default is null.|
 |outStorageName|String|Query|Output file Storage Name.|
-|region|String|Query|The spreadsheet region setting.|
+|region|String|Query|Spreadsheet region/language setting (e.g., `en-US`, `fr-FR`). Influences number formatting, date parsing, and locale‑specific behavior.|
 |password|String|Query|The password for opening spreadsheet file.|
 
 ### **Response Description**

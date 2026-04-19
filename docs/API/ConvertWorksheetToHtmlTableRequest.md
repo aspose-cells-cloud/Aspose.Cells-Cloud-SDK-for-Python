@@ -25,7 +25,7 @@ This method reads a spreadsheet file from the local file system, converts it's w
 | :- | :- | :- |:- | 
 |Spreadsheet|File|FormData|Upload spreadsheet file.|
 |worksheet|String|Query|worksheet name of spreadsheet.|
-|region|String|Query|The spreadsheet region setting.|
+|region|String|Query|Spreadsheet region/language setting (e.g., `en-US`, `fr-FR`). Influences number formatting, date parsing, and locale‑specific behavior.|
 |password|String|Query|The password for opening spreadsheet file.|
 
 ### **Response Description**

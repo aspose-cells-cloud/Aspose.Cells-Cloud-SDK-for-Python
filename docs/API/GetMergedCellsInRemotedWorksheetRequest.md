@@ -27,7 +27,7 @@ This endpoint queries a remote spreadsheet service (e.g., Google Sheets, Office 
 |worksheet|String|Path|worksheet name|
 |folder|String|Query|The cloud storage path of the spreadsheet.|
 |storageName|String|Query|(Optional) The name of the storage if using custom cloud storage. Use default storage if omitted.|
-|region|String|Query|The spreadsheet region setting.|
+|region|String|Query|Spreadsheet region/language setting (e.g., `en-US`, `fr-FR`). Influences number formatting, date parsing, and locale‑specific behavior.|
 |password|String|Query|The password for opening spreadsheet file.|
 
 ### **Response Description**

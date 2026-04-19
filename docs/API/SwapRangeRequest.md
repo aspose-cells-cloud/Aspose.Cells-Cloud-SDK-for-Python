@@ -28,7 +28,7 @@ This API is designed to enhance productivity by simplifying the process of re-ar
 |range2|String|Query|Specify exchange data target.|
 |outPath|String|Query|(Optional) The folder path where the workbook is stored. The default is null.|
 |outStorageName|String|Query|Output file Storage Name.|
-|region|String|Query|The spreadsheet region setting.|
+|region|String|Query|Spreadsheet region/language setting (e.g., `en-US`, `fr-FR`). Influences number formatting, date parsing, and locale‑specific behavior.|
 |password|String|Query|The password for opening spreadsheet file.|
 
 ### **Response Description**

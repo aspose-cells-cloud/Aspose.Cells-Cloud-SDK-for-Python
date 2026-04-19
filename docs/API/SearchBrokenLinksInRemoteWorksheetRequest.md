@@ -27,7 +27,7 @@ This method searches for broken links within a worksheet of spreadsheet file sto
 |worksheet|String|Path|Specify the worksheet for the lookup.|
 |folder|String|Query|The folder path where the workbook is stored.|
 |storageName|String|Query|(Optional) The name of the storage if using custom cloud storage. Use default storage if omitted.|
-|region|String|Query|The spreadsheet region setting.|
+|region|String|Query|Spreadsheet region/language setting (e.g., `en-US`, `fr-FR`). Influences number formatting, date parsing, and locale‑specific behavior.|
 |password|String|Query|The password for opening spreadsheet file.|
 
 ### **Response Description**

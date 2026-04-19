@@ -27,7 +27,7 @@ By using the CompressSpreadsheet API, you can dynamically manage the storage and
 |level|Integer|Query|Specifies the compression level to be applied to the spreadsheet. The level should be within a valid range (e.g., 0-9 for most compression algorithms, where 0 is no compression and 9 is maximum compression).|
 |outPath|String|Query|(Optional) The folder path where the workbook is stored. The default is null.|
 |outStorageName|String|Query|Output file Storage Name.|
-|region|String|Query|The spreadsheet region setting.|
+|region|String|Query|Spreadsheet region/language setting (e.g., `en-US`, `fr-FR`). Influences number formatting, date parsing, and locale‑specific behavior.|
 |password|String|Query|The password for opening spreadsheet file.|
 
 ### **Response Description**

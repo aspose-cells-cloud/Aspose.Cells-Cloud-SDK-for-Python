@@ -23,7 +23,7 @@ This method reads all text content from the spreadsheet workbook, translates it 
 | :- | :- | :- |:- | 
 |Spreadsheet|File|FormData|Upload spreadsheet file.|
 |targetLanguage|String|Query|The target language code for translation (e.g., "es", "fr", "de").|
-|region|String|Query|The spreadsheet region setting.|
+|region|String|Query|Spreadsheet region/language setting (e.g., `en-US`, `fr-FR`). Influences number formatting, date parsing, and locale‑specific behavior.|
 |password|String|Query|The password for opening spreadsheet file.|
 
 ### **Response Description**

@@ -28,7 +28,7 @@ The Aggregate by Color API is a powerful tool for data analysis, allowing you to
 |range|String|Query|Specified range.|
 |operation|String|Query|Specify calculation operation methods, including Sum, Count, Average, Min, and Max.|
 |colorPosition|String|Query|Indicates the content to sum and count based on background color and/or font color.|
-|region|String|Query|The spreadsheet region setting.|
+|region|String|Query|Spreadsheet region/language setting (e.g., `en-US`, `fr-FR`). Influences number formatting, date parsing, and locale‑specific behavior.|
 |password|String|Query|The password for opening spreadsheet file.|
 
 ### **Response Description**

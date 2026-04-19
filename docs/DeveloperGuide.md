@@ -99,6 +99,9 @@ This Developer Guide serves as the complete technical reference for the Aspose.C
 | [RemoveDuplicates](api/RemoveDuplicates.md) | Removes duplicate values in the worksheet/range/table. |
 | [SwapRange](api/SwapRange.md) | The Swap Ranges for Excel API provides a powerful tool to move any two columns, rows, ranges, or individual cells within an Excel file. This API allows users to re-arrange their tables quickly and efficiently, ensuring that the original data formatting is preserved and all existing formulas continue to function correctly. By leveraging this API, users can streamline their data manipulation tasks and maintain the integrity of their spreadsheets. |
 | [FlipData](api/FlipData.md) | Transposes a specified data range (rows become columns, columns become rows). |
+| [TransposeData](api/TransposeData.md) | Switch rows and columns in the spreadsheet. |
+| [UnpivotRange](api/UnpivotRange.md) | Switch rows and columns in the spreadsheet. |
+| [UnpivotTable](api/UnpivotTable.md) | Switch rows and columns in the spreadsheet. |
 | [DownloadFile](api/DownloadFile.md) |  |
 | [UploadFile](api/UploadFile.md) |  |
 | [CopyFile](api/CopyFile.md) |  |
