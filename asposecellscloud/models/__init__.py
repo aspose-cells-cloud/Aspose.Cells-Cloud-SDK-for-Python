@@ -53,6 +53,7 @@ from asposecellscloud.models.text_item import TextItem
 from asposecellscloud.models.dbf_save_options import DbfSaveOptions
 from asposecellscloud.models.dif_save_options import DifSaveOptions
 from asposecellscloud.models.docx_save_options import DocxSaveOptions
+from asposecellscloud.models.ebook_save_options import EbookSaveOptions
 from asposecellscloud.models.html_save_options import HtmlSaveOptions
 from asposecellscloud.models.image_save_options import ImageSaveOptions
 from asposecellscloud.models.json_save_options import JsonSaveOptions

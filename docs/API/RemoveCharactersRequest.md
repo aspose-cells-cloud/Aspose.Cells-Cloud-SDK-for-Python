@@ -27,7 +27,7 @@ RemoveCustomText performs precise, position-based or pattern-based deletion insi
 |removeTextMethod|String|Query|Specify the removal of text method type.|
 |characterSets|String|Query|Specify the character sets.|
 |removeCustomValue|String|Query|Specify the remove custom value.|
-|caseSensitive|Boolean|Query||
+|caseSensitive|Boolean|Query|affects `Substring` mode and `CustomChars` when enabled  |
 |worksheet|String|Query|Specify the worksheet of spreadsheet.|
 |range|String|Query|Specify the worksheet range of spreadsheet.|
 |outPath|String|Query|(Optional) The folder path where the workbook is stored. The default is null.|

@@ -28,7 +28,7 @@ PUT http://api.aspose.cloud/v4.0/cells/content/remove/characters-by-position
 |theLastNCharacters|Integer|Query|Specify removing the last n characters from selected cells.|
 |allCharactersBeforeText|String|Query|Specify using targeted removal options to delete text that is located before certain characters.|
 |allCharactersAfterText|String|Query|Specify using targeted removal options to delete text that is located after certain characters.|
-|caseSensitive|Boolean|Query||
+|caseSensitive|Boolean|Query|Affects `Substring` mode and `CustomChars` when enabled.|
 |worksheet|String|Query|Specify the worksheet of spreadsheet.|
 |range|String|Query|Specify the worksheet range of spreadsheet.|
 |outPath|String|Query|(Optional) The folder path where the workbook is stored. The default is null.|

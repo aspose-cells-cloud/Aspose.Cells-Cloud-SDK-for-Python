@@ -27,8 +27,8 @@ PUT http://api.aspose.cloud/v4.0/cells/content/remove/duplicate-substrings
 |delimiters|String|Query|comma, semicolon, space, tab, line-break |
 |treatConsecutiveDelimitersAsOne|Boolean|Query|collapse adjacent delimiters into a single separator.|
 |caseSensitive|Boolean|Query||
-|worksheet|String|Query||
-|range|String|Query||
+|worksheet|String|Query|Specify the worksheet of spreadsheet.|
+|range|String|Query|Specify the worksheet range of spreadsheet.|
 |outPath|String|Query|(Optional) The folder path where the workbook is stored. The default is null.|
 |outStorageName|String|Query|Output file Storage Name.|
 |region|String|Query|Spreadsheet region/language setting (e.g., `en-US`, `fr-FR`). Influences number formatting, date parsing, and locale‑specific behavior.|

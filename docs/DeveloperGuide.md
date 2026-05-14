@@ -65,6 +65,8 @@ This Developer Guide serves as the complete technical reference for the Aspose.C
 | [GetMergedCellsInWorksheet](api/GetMergedCellsInWorksheet.md) | Get all merged cell area form a local spreadsheet worksheet. |
 | [AcceptAllRevisions](api/AcceptAllRevisions.md) |  |
 | [AcceptAllRevisionsInRemoteSpreadsheet](api/AcceptAllRevisionsInRemoteSpreadsheet.md) |  |
+| [GetSpreadsheetStructure](api/GetSpreadsheetStructure.md) | Structurally convert the core metadata, worksheets, tables, pivot tables, charts, shapes, and other information of an Excel workbook into a JObject type JSON object, for scenarios such as data export, API responses, and log recording. |
+| [GetStructureInRemoteSpreadsheet](api/GetStructureInRemoteSpreadsheet.md) | Structurally convert the core metadata, worksheets, tables, pivot tables, charts, shapes, and other information of an Excel workbook into a JObject type JSON object, for scenarios such as data export, API responses, and log recording. |
 | [ProtectSpreadsheet](api/ProtectSpreadsheet.md) | Applies dual-layer password protection to Excel spreadsheets, supporting both open and modify passwords with encryption. |
 | [UnprotectSpreadsheet](api/UnprotectSpreadsheet.md) | Removes dual-layer password protection from Excel spreadsheets, supporting both open and modify passwords with encryption. |
 | [SpreadsheetDigitalsignature](api/SpreadsheetDigitalsignature.md) |  |
@@ -84,13 +86,20 @@ This Developer Guide serves as the complete technical reference for the Aspose.C
 | [SearchBrokenLinksInRemoteRange](api/SearchBrokenLinksInRemoteRange.md) | Search broken links in the range of remoted spreadsheet. |
 | [Spec](api/Spec.md) | Get the specifications |
 | [CodegenSpec](api/CodegenSpec.md) |  |
-| [TrimCharacter](api/TrimCharacter.md) | The TrimSpreadsheetContent API is designed to process and trim content within a spreadsheet. This API allows users to remove extra spaces, line breaks, or other unnecessary characters from the content of selected cells. It is particularly useful for cleaning up data entries and ensuring consistency in spreadsheet formatting |
+| [TrimCharacterInRemoteSpreadsheet](api/TrimCharacterInRemoteSpreadsheet.md) | The TrimSpreadsheetContent API is designed to process and trim content within a spreadsheet. This API allows users to remove extra spaces, line breaks, or other unnecessary characters from the content of selected cells. It is particularly useful for cleaning up data entries and ensuring consistency in spreadsheet formatting |
+| [TrimCharacter](api/TrimCharacter.md) | The TrimSpreadsheetContent API is designed to process and trim content within a remote spreadsheet. This API allows users to remove extra spaces, line breaks, or other unnecessary characters from the content of selected cells. It is particularly useful for cleaning up data entries and ensuring consistency in spreadsheet formatting |
 | [UpdateWordCase](api/UpdateWordCase.md) | Specify changing the text case in a spreadsheet to switch between uppercase, lowercase, capitalizing the first letter of each word, or capitalizing the first letter of a sentence, and adjust the text according to specific needs. |
+| [UpdateWordCaseInRemoteSpreadsheet](api/UpdateWordCaseInRemoteSpreadsheet.md) | Specify changing the text case in a remote spreadsheet to switch between uppercase, lowercase, capitalizing the first letter of each word, or capitalizing the first letter of a sentence, and adjust the text according to specific needs. |
 | [RemoveCharacters](api/RemoveCharacters.md) | Deletes user-defined characters, predefined symbol sets, or any substring from every cell in the chosen range while preserving formulas, formatting and data-validation. |
+| [RemoveCharactersInRemoteSpreadsheet](api/RemoveCharactersInRemoteSpreadsheet.md) | Deletes user-defined characters, predefined symbol sets, or any substring from every cell in the chosen range while preserving formulas, formatting and data-validation for a remote spreadsheet. |
 | [RemoveCharactersByPosition](api/RemoveCharactersByPosition.md) | Deletes characters from every cell in the target range by position (first/last N, before/after a substring, or between two delimiters) while preserving formulas, formatting and data-validation. |
+| [RemoveCharactersByPositionInRemoteSpreadsheet](api/RemoveCharactersByPositionInRemoteSpreadsheet.md) | Deletes characters from every cell in the target range by position (first/last N, before/after a substring, or between two delimiters) while preserving formulas, formatting and data-validation. |
 | [RemoveDuplicateSubstrings](api/RemoveDuplicateSubstrings.md) | Finds and removes repeated substrings inside every cell of the chosen range, using user-defined or preset delimiters, while preserving formulas, formatting and data-validation. |
+| [RemoveDuplicateSubstringsInRemoteSpreadsheet](api/RemoveDuplicateSubstringsInRemoteSpreadsheet.md) | Finds and removes repeated substrings inside every cell of the chosen range, using user-defined or preset delimiters, while preserving formulas, formatting and data-validation. |
 | [AddText](api/AddText.md) | Specify appending text to multiple cells at once, allowing you to add prefixes, suffixes, labels, or any specific characters. You can choose the exact position of the text—in the beginning, at the end, or before or after certain characters in the cell. |
+| [AddTextInRemoteSpreadsheet](api/AddTextInRemoteSpreadsheet.md) | Specify appending text to multiple cells at once, allowing you to add prefixes, suffixes, labels, or any specific characters. You can choose the exact position of the text—in the beginning, at the end, or before or after certain characters in the cell. |
 | [ConvertText](api/ConvertText.md) | Indicates converting the numbers stored as text into the correct number format, replacing unwanted characters and line breaks with the desired characters, and converting accented characters to their equivalent characters without accents. |
+| [ConvertTextInRemoteSpreadsheet](api/ConvertTextInRemoteSpreadsheet.md) | Indicates converting the numbers stored as text into the correct number format, replacing unwanted characters and line breaks with the desired characters, and converting accented characters to their equivalent characters without accents. |
 | [ExtractText](api/ExtractText.md) | Indicates extracting substrings, text characters, and numbers from a spreadsheet cell into another cell without having to use complex FIND, MIN, LEFT, or RIGHT formulas. |
 | [SplitText](api/SplitText.md) | Indicates performing text segmentation on the specified area according to the segmentation method, and outputting to the designated interval. |
 | [RemoveSpreadsheetBlankRows](api/RemoveSpreadsheetBlankRows.md) | Delete all blank rows that do not contain any data or other objects. |
@@ -487,6 +496,7 @@ This Developer Guide serves as the complete technical reference for the Aspose.C
 | [DbfSaveOptions](model/DbfSaveOptions.md)|  |
 | [DifSaveOptions](model/DifSaveOptions.md)|  |
 | [DocxSaveOptions](model/DocxSaveOptions.md)|  |
+| [EbookSaveOptions](model/EbookSaveOptions.md)|  |
 | [HtmlSaveOptions](model/HtmlSaveOptions.md)|  |
 | [ImageSaveOptions](model/ImageSaveOptions.md)|  |
 | [JsonSaveOptions](model/JsonSaveOptions.md)|  |
